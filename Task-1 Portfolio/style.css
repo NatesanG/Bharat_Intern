@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+::selection{
+    background-color: darkred;
+    color: #1a1a1a;
+}
+#header{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 80px;
+}
+#navbar{
+    float: left;  
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #1a1a1a;
+    width: 100%;
+    padding-bottom: 20px;
+    box-shadow: 0 3px 6px darkred;
+}
+#navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: 0.2s ease-in-out;
+}
+
+#navbar ul li a:hover{
+    color: darkred;
+    
+}
+#home h2{
+    color: white;
+    margin-top: 170px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+#home p{
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+#home button{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: darkred;
+    border-color: black;
+    cursor: pointer;
+    
+}
+#home button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: .3s ease-in-out;
+}
+#home button a:hover{
+    border: none;
+    background-color: darkred;
+    color: white;
+}
+#profile{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: right;
+    margin-right: 200px;
+    margin-top: -220px;
+    border-radius: 50%;
+    border: 8px solid darkred;
+    background-image: url(images/d2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about h1{
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline darkred ;
+}
+#intro{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    text-align: start;
+}
+#intro h2{
+    margin-top: -140px;
+    font-size: 35px;
+    margin-left: 350px;
+    
+}
+#intro p{
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 350px;
+}
+.me{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50px;
+    border: 6px solid darkred;
+    background-image: url(images/d1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#place{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 200px;
+    border: 6px solid darkred;
+    background-image: url(images/d1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1{
+    margin-top: -157px;
+    margin-right: 10px;
+}
+#skills h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline darkred;
+    letter-spacing: 2px;
+}
+#frontend{
+    width: 260px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 6px solid darkred;
+    background-image: url(images/hcj.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content1{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+#embed{
+    width: 260px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 6px solid darkred;
+    background-image: url(images/embed.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content2{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 350px;
+    margin-top: -120px;
+}
+#iot{
+    width: 260px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 6px solid darkred;
+    background-image: url(images/iot.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+#content3{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 350px;
+    margin-top: -120px;
+}
+#projects h1{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline darkred;
+    padding-bottom: 80px;
+}
+
+#content4 p{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 350px;
+    margin-top: -90px;
+}
+#luna video{
+    margin-left: 50px;
+}
+#contact h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: underline darkred;
+    margin-top: 150px;
+}
+.container{
+    margin-top: 70px;
+    margin-left: 100px;
+    color: white;
+}
+.container h3{
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    color: white;
+}
+.form-group{
+    width: 400px;
+    height: 60px;
+    margin-top: 60px;
+    margin-left: 450px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.form-control{
+    width: 400px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 450px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.textarea{
+    width: 400px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 450px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 450px;
+    background-color: darkred;
+    border: none;
+    outline: none;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: darkred;
+    color: white;
+}
+.contact-info{
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white;
+}
+.contact-info h3{
+    letter-spacing: 1.5px;
+    color: white;
+}
+.info{
+    margin-top: 20px;
+    margin-left: 100px;
+    text-transform: lowercase;
+    padding: 0px 20px;
+    font-size: 17px;
+    color: white;
+}
+.fa-instagram{
+    font-size: 25px;
+    margin-left: 150px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: darkred;
+    font-size: 30px;
+}
+.fa-linkedin{
+    font-size: 25px;
+    margin-left: 50px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.fa-linkedin:hover{
+    color: darkred;
+    font-size: 30px;
+}
+.fa-square-github{
+    font-size: 25px;
+    margin-left: 50px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.fa-square-github:hover{
+    color: darkred;
+    font-size: 30px;
+}
+#achieve h1{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: underline darkred;
+}
+#tnsi{
+    width: 260px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 6px solid darkred;
+    background-image: url(images/iot.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+#content5{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 350px;
+    margin-top: -90px;
+}
+#olimayam{
+    width: 260px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 200px;
+    border: 6px solid darkred;
+    background-image: url(images/iot.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+#content6{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    margin-left: 350px;
+    margin-top: -90px;
+}
+.socials a{
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb{
+    background: darkred;
+    border-radius: 10px;
+}
+
